@@ -1,0 +1,14 @@
+# Netlify / Cloudflare Pages — coloque este arquivo na mesma pasta do index.html
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'sha256-knS7zsjZYWhibHMrXTHHdaqM+36qBZm+wMF1kIosHOI=' 'sha256-2J/WrGbU9eGtlGZrB6a3NkSSh64X4EKzZiplGSPrrH8=' 'sha256-5Bany/6831rK3YGLqHthnF2fcuq4DCV9wN6cK2+SrdQ=' 'sha256-0nYRg6AGeNf+E7iwC8Za5F/5X9uFgqKZg5WCY/JzM/0='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Permitted-Cross-Domain-Policies: none
+  Origin-Agent-Cluster: ?1
+/index.html
+  Cache-Control: no-cache
